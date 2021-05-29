@@ -1,0 +1,178 @@
+body{
+    background-color: "#fff";
+    font-family: 'Dela Gothic One', cursive;
+    
+}
+
+.nav-item{
+    margin-left:15%;
+
+
+}
+
+.navbar-nav{
+    padding-left: 40%;
+}
+
+
+                             /* intro section */
+
+.intro-company{
+    background-color: rgb(235, 221, 221);
+    height: 20rem;
+
+} 
+.intro-company_complete{
+    background-color: rgb(235, 221, 221);
+    height: 10rem;
+
+}
+.typed-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.typed{
+    
+    
+    background-color: rgb(235, 221, 221);
+
+} 
+.cursor{
+    display: inline-block;
+    width:3px;
+    background-color: rgb(27, 32, 32);
+    margin-left: .1rem;
+    animation: blink 1s infinite;
+
+
+}
+@keyframes blink {
+    50%{background-color: transparent;}
+    
+}
+
+
+
+
+
+
+.form-container{
+    
+    background-color:rgb(235, 221, 221); 
+    height: 75rem;
+}
+
+
+.form{
+    overflow: auto;
+    background-color: bisque;
+    margin:5% ;
+    padding: 5%  30% 10%; 
+}
+
+.form-dtails{
+    text-align: center;
+    
+    margin:4%;
+    margin-top: 6%;
+}
+.input-details{
+    display: block;
+    margin-bottom: 7%;
+}
+.btn2{
+    margin-left: 110%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    font-family: 'Train One', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    margin-top: 10%;
+    color: rgb(62, 90, 90);
+}
+
+.car-image{
+
+    height: 300px;
+    width: 150px;
+    border-radius: 100%
+
+}
+.carousel-item{
+    padding:5% 20%;
+
+}
+.arrow{
+    background-color:rgb(68, 34, 34);
+
+}
+
+
+
+
+
+
+#popular-destination{
+    text-align: center;
+}
+
+.place-img{
+    border-radius: 100%;
+}
+.card-container{
+    background-color: rgb(40, 131, 131);
+    padding:5% 10%;
+    
+}
+.my-cards{
+    
+    
+    background-color: rgb(183, 197, 197);
+    height: 50%;
+    width: 50%;
+    padding: 5%;
+    
+}
+
+
+.footer{
+    background-color: rgb(15, 14, 14);
+    text-align: center;
+    color: #fff;
+    padding: 4%;
+}
+.social-links{
+    margin-top: 4%;
+    margin: 3%;
+    
+    color: #fff;
+}

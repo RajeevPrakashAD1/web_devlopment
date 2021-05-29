@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(4, 22, 34);
+}
+hr{
+    border : none;
+    background-color:rgb(226, 229, 231);
+    border-style:none;
+    border-top-style:  dotted;
+    border-color: grey;
+    border-width: 5px;
+    height :0;
+    width: 10%;
+}
+h1{
+    color: rgb(190, 177, 124);
+}
+h3{
+    color: rgb(190, 177, 124);
+}
+h2{
+    color: rgb(54, 45, 5);
+}
+.image{
+   background-color: aquamarine; 
+   border-radius: 100%;
+
+}

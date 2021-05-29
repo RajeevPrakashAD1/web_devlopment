@@ -1,0 +1,25 @@
+<%- include("partials/header.ejs") -%>
+
+<h1> Home</h1>
+
+<p> <%= content %></p>
+
+<div class="container-fluid">
+   <%   for (var i of PostArr){  %>
+            
+   <h3>   <%=  i.title %> </h3> 
+   <% if(i.content.length >100){  %>
+        <span> <%= i.content.substring(0,100); %></span>
+   <% } %>
+   <% if(i.content.length <100){  %>
+    <span> <%= i.content %></span>
+<% } %>
+   
+   
+
+   <a href="/posts/<%=i.title %>">.....Read more</a>
+      
+        <%  }  %>
+</div>
+
+<%- include("partials/footer.ejs") -%>

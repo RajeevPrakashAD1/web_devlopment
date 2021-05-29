@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>edit</title>
+
+</head>
+<body>
+        <h3>  Edit form</h3>
+
+        <h3>  {{ book.title }}</h3>
+        <h3>  {{ book.rating }}</h3>
+
+    <form action="/edit" method="POST">
+        <label for="new_rating">  new rating</label>
+        <input hidden="hidden"  name = "idd"  id="idd" value="{{ book.id }}">
+        <input name="new_rating" type="text" id="new_rating">
+        <button type="submit"> change </button>
+
+    </form>
+
+</body>
+</html>

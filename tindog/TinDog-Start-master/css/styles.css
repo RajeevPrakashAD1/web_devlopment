@@ -1,0 +1,210 @@
+
+body{
+    background-color: #ffffff;
+    font-family:'Montserrat' ;
+}
+/* .navbar{
+    height:50%;
+    background-color: #e692e1;
+    padding:-10%;
+} */
+.navbar-brand{
+    font-size: 3.5rem;
+    padding-top: 0%;
+    color: #fff;
+}
+/* .form-inline{
+    margin-left: 0%;
+} */
+.navbar-nav{
+    padding-top: 0%;
+    background-color: #e692e1;
+    color: #fff;
+}
+.navbar-main{
+  
+    background-color: #e692e1;
+   
+}
+.nav-item{
+    color:#fff;
+    margin: 3%;
+}
+#promo{
+    background-color: #e692e1;
+    padding-bottom: 7%;
+}
+#title{
+    
+    background-color: #e692e1;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin:10% 10%;
+    
+}
+
+.container-fluid{
+    background-color: #e692e1;
+    margin-top: 0;
+    padding: 3% 5%;
+   
+   
+} 
+#img{
+    width:40%;
+    transform: rotate(20deg);
+    margin:10%;
+    position: absolute;
+    right:20%;
+   
+
+}
+
+
+
+.btn{
+    margin:5% 2%;
+}
+
+
+.feature-div{
+    margin: 7% 3%;
+    
+ 
+
+}
+.feature-para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:8%;
+    
+}
+#features{
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+}
+i{
+    margin:5%;
+    color:rgb(185, 29, 172);
+}
+i:hover{
+    color:#e692e1;
+}
+/* 
+testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color:#ad46a7;
+    
+    color: #fff;
+    font-family: 'Montserat-bold';
+    
+}
+.testimonial-image{
+    border-radius: 100%;
+    margin: 5%;
+    padding:5%;
+
+}
+.carousel-item{
+   padding:8%;
+}
+
+
+
+
+#press{
+    background-color: #ad46a7;
+    
+    padding: auto;
+    text-align: center;
+
+}
+.news_img{
+    width: 10%;
+    margin: 0% 5% 5%;
+}
+
+
+#pricing{
+    background-color: #e692e1;
+    text-align: center;
+    padding:5%;
+    color: #fff;
+    
+}
+.card{
+    background-color: rgb(75, 72, 72);
+    margin: 5%;
+    margin-top: 10%;
+}
+
+
+
+#cta{
+    background-color: #df76d8;
+    padding:8%;
+    text-align: center;
+    color:white;
+    
+}
+#footer{
+    background-color: black;
+    color:#fff;
+    height:80px;
+    text-align: center;
+    padding-top:1%;
+    
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px){
+    #title{
+        text-align: center;
+    }
+    #promo{
+        text-align: center;
+    }
+    .navbar-toggler{
+        text-align: right;
+        
+        margin-left: 90%;
+    }
+    #img{
+        position:static;
+        transform: rotate(0);
+
+    }
+    #footer{
+        background-color: black;
+        color:#fff;
+        
+        padding-top:3%;
+        text-align: center;
+        font-size: small;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    }
+    
+}
